@@ -24,8 +24,8 @@ public class AppConfig extends WebMvcConfigurationSupport {
     //Static resources
     @Override
     protected void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/resources/**","images/**")
-                .addResourceLocations("classpath:/static/css/","classpath:/static/images/");
+        registry.addResourceHandler("/resources/**","/images/**")
+                .addResourceLocations("classpath:/static/", "classpath:/static/images/");
     }
 
     //resolve jsps
