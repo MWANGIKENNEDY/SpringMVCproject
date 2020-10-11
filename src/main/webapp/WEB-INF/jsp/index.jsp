@@ -13,64 +13,41 @@
 
     <link href="/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <link type="text/css" href="/resources/materialize/css/materialize.min.css" rel="stylesheet" media="screen,projection">
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
 
   </head>
 
-  <body class="container-fluid">
+  <body>
 
- <nav class="black">
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">
-      <img src="/images/saflogo.jpg" width="150">
-      </a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-    </div>
-  </nav>
-
-
-<div class="alert alert-success">
-  <strong>Success!</strong> Indicates a successful or positive action.
-</div>
+  <table>
+  <tr>
+  <th>ID</th>
+  <th>CELL_TYPE</th>
+    <th>FIELD_ENGINEER</th>
+      <th>REGION</th>
+        <th>SITE_NAME</th>
+          <th>TELEPHONE_NUMBER</th>
+            <th>TOWER_ID</th>
+  </tr>
+  </table>
 
 
-
-  <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
-
-     <table>
-          <thead>
-            <tr>
-                <th>Name</th>
-                <th>Item Name</th>
-                <th>Item Price</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>Alvin</td>
-              <td>Eclair</td>
-              <td>$0.87</td>
-            </tr>
-            <tr>
-              <td>Alan</td>
-              <td>Jellybean</td>
-              <td>$3.76</td>
-            </tr>
-            <tr>
-              <td>Jonathan</td>
-              <td>Lollipop</td>
-              <td>$7.00</td>
-            </tr>
-          </tbody>
-        </table>
-
-
-
-
+<script type="text/javascript" src="/resources/js/jquery.js"></script>
   </body>
 </html>
