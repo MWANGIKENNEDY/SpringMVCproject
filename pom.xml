@@ -48,15 +48,14 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-                
-                                <!-- https://mvnrepository.com/artifact/jstl/jstl -->
 
-		<!-- Tomcat Embed -->
+		<!-- https://mvnrepository.com/artifact/org.springframework.hateoas/spring-hateoas -->
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
+			<groupId>org.springframework.hateoas</groupId>
+			<artifactId>spring-hateoas</artifactId>
+			<version>1.1.2.RELEASE</version>
 		</dependency>
+
 
 		<!-- To compile JSP files -->
 		<dependency>

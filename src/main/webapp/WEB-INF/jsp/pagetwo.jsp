@@ -13,29 +13,10 @@
 
     <link href="/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <style>
-    table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-    }
-
-    td, th {
-      border: 1px solid #dddddd;
-      text-align: center;
-      padding: 8px;
-    }
-
-    tr:nth-child(even) {
-      background-color: #dddddd;
-    }
-    </style>
+    <link type="text/css" href="/resources/materialize/css/materialize.min.css" rel="stylesheet" media="screen,projection">
 
   </head>
 
-<<<<<<< HEAD
-  <body>
-=======
   <body class="container-fluid">
 
  <nav class="black">
@@ -44,13 +25,14 @@
       <img src="/images/saflogo.jpg" width="150">
       </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="/pagetwo">Page2</a></li>
+        <li><a href="sass.html">Sass</a></li>
         <li><a href="badges.html">Components</a></li>
         <li><a href="collapsible.html">JavaScript</a></li>
       </ul>
     </div>
   </nav>
 
+<h2>This is page 2 ::</h2>
 
      <table>
           <thead>
@@ -82,21 +64,8 @@
           </tbody>
         </table>
 
->>>>>>> a0ad67fe3c46ef9edd46dce34770079e6fa03a51
-
-  <table>
-  <tr>
-  <th>ID</th>
-  <th>CELL_TYPE</th>
-    <th>FIELD_ENGINEER</th>
-      <th>REGION</th>
-        <th>SITE_NAME</th>
-          <th>TELEPHONE_NUMBER</th>
-            <th>TOWER_ID</th>
-  </tr>
-  </table>
 
 
-<script type="text/javascript" src="/resources/js/jquery.js"></script>
+
   </body>
 </html>

@@ -42,6 +42,10 @@ public class AppConfig extends WebMvcConfigurationSupport {
 
     @Bean
     public SiteService siteService(){
+<<<<<<< HEAD
         return new SiteServiceImpl();
+=======
+        return  new SiteServiceImpl();
+>>>>>>> a0ad67fe3c46ef9edd46dce34770079e6fa03a51
     }
 }
