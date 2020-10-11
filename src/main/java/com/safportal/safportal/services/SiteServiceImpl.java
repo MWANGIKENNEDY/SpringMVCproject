@@ -7,10 +7,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
 
 public class SiteServiceImpl implements SiteService {
-
     @Autowired
     SitesRepo sitesRepo;
-
+    //Add a new site
+    @Override
+    public void addSite(SitesModel sitesModel) {
+        sitesRepo.save(sitesModel);
+    }
     //Get all sites details
     @Override
     public List<SitesModel> getAllSites() {

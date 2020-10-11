@@ -25,13 +25,14 @@
       <img src="/images/saflogo.jpg" width="150">
       </a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="/pagetwo">Page2</a></li>
+        <li><a href="sass.html">Sass</a></li>
         <li><a href="badges.html">Components</a></li>
         <li><a href="collapsible.html">JavaScript</a></li>
       </ul>
     </div>
   </nav>
 
+<h2>This is page 2 ::</h2>
 
      <table>
           <thead>

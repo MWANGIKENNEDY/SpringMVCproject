@@ -7,12 +7,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class SafportalApplication extends SpringBootServletInitializer {
-
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(SafportalApplication.class);
-    }
+public class SafportalApplication {
 
     public static void main(String[] args) {
             SpringApplication.run(SafportalApplication.class, args);

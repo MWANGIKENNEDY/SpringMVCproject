@@ -5,6 +5,8 @@
  */
 package com.safportal.safportal.appconfig;
 
+import com.safportal.safportal.services.SiteService;
+import com.safportal.safportal.services.SiteServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -36,5 +38,10 @@ public class AppConfig extends WebMvcConfigurationSupport {
         viewResolver.setSuffix(".jsp");
         viewResolver.setViewClass(JstlView.class);
         return viewResolver;
+    }
+
+    @Bean
+    public SiteService siteService(){
+        return  new SiteServiceImpl();
     }
 }
